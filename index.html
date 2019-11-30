@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+			content="width=device-width, user-scalebel=no, initial-scale=1.0, 
+			maximum-scale=1.0, minimum-scale=1.0">
+			<meat http-equiv="X-UA-Compatible" content="ie=edge">
+			<link rel="stylesheet" href="main.css">
+			<title>Overlord</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="table">
+		<div class="tableHeader">
+			<div class="tableTitle"><span class="tableTitleText">To Do List</span></div>
+			<div class="tableInfo">
+				<div class="tableInfoItem">
+					<span class="tableInfoText">Всього задач</span>
+					<span class="tableInfoNumber" id="jsAllTasks"></span>
+			</div>
+			<div class="tableInfoItem">
+				<span class="tableInfoText">Виконано завданнь</span>
+				<span class="tableInfoNumber" id="jsDoneTasks"></span>
+			</div>
+		</div>
+	</div>
+	<div class="tableBody">
+		<ul class="tableList" id="tableList"></ul>
+	</div>
+	<div class="tableFooter">
+		<input class="tableTaskNew" id="tableTaskNew" placeholder="Add New Task">
+	</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
